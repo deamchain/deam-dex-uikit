@@ -41,7 +41,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
 	return (
 		<Flex>
 			{isPushed ? (
-				<StyledLink to={href} aria-label="Icicb home page">
+				<StyledLink to={href} aria-label="Deam home page">
 					{innerLogo}
 				</StyledLink>
 			) : (

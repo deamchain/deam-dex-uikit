@@ -57,7 +57,7 @@ const PanelFooter: React.FC<Props> = ({
     <>
       <Container>
         <SettingsEntry>Fast<TradeIcon style={{ marginLeft: "15px", width: "30px" }} /></SettingsEntry>
-        <SettingsEntry>Relativity</SettingsEntry>
+        <SettingsEntry>Deam</SettingsEntry>
         <SettingsEntry>Exchange</SettingsEntry>
       </Container>
     </>

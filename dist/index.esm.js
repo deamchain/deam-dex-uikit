@@ -2104,7 +2104,7 @@ var Logo = function (_a) {
     var innerLogo = (React.createElement(React.Fragment, null,
         React.createElement(Logo$1, { className: "mobile-icon", isDark: isDark, width: "240px" }),
         React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark, width: "240px" })));
-    return (React.createElement(Flex, null, isPushed ? (React.createElement(StyledLink, { to: href, "aria-label": "Icicb home page" }, innerLogo)) : ("")));
+    return (React.createElement(Flex, null, isPushed ? (React.createElement(StyledLink, { to: href, "aria-label": "Deam home page" }, innerLogo)) : ("")));
 };
 var templateObject_1$c;
 
@@ -2320,7 +2320,7 @@ var PanelFooter = function (_a) {
             React.createElement(SettingsEntry, null,
                 "Fast",
                 React.createElement(Icon$10, { style: { marginLeft: "15px", width: "30px" } })),
-            React.createElement(SettingsEntry, null, "Relativity"),
+            React.createElement(SettingsEntry, null, "Deam"),
             React.createElement(SettingsEntry, null, "Exchange"))));
 };
 var templateObject_1$8, templateObject_2$3;

@@ -2117,7 +2117,7 @@ var Logo = function (_a) {
     var innerLogo = (React__default["default"].createElement(React__default["default"].Fragment, null,
         React__default["default"].createElement(Logo$1, { className: "mobile-icon", isDark: isDark, width: "240px" }),
         React__default["default"].createElement(Logo$1, { className: "desktop-icon", isDark: isDark, width: "240px" })));
-    return (React__default["default"].createElement(Flex, null, isPushed ? (React__default["default"].createElement(StyledLink, { to: href, "aria-label": "Icicb home page" }, innerLogo)) : ("")));
+    return (React__default["default"].createElement(Flex, null, isPushed ? (React__default["default"].createElement(StyledLink, { to: href, "aria-label": "Deam home page" }, innerLogo)) : ("")));
 };
 var templateObject_1$c;
 
@@ -2333,7 +2333,7 @@ var PanelFooter = function (_a) {
             React__default["default"].createElement(SettingsEntry, null,
                 "Fast",
                 React__default["default"].createElement(Icon$10, { style: { marginLeft: "15px", width: "30px" } })),
-            React__default["default"].createElement(SettingsEntry, null, "Relativity"),
+            React__default["default"].createElement(SettingsEntry, null, "Deam"),
             React__default["default"].createElement(SettingsEntry, null, "Exchange"))));
 };
 var templateObject_1$8, templateObject_2$3;
