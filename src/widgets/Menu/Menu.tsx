@@ -155,7 +155,7 @@ const Menu: React.FC<NavProps> = ({
           <SocialEntry>
             {cakePriceUsd ? (
               <PriceLink href={priceLink} target="_blank">
-                <PancakeRoundIcon width="45px" mr="8px" />
+                <PancakeRoundIcon width="40px" mr="8px" />
                 <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
               </PriceLink>
             ) : (

@@ -2235,7 +2235,7 @@ var links = [
         ],
     },
 ];
-var MENU_HEIGHT = 200;
+var MENU_HEIGHT = 130;
 var MENU_ENTRY_HEIGHT = 48;
 var SIDEBAR_WIDTH_FULL = 480;
 var SIDEBAR_WIDTH_REDUCED = 56;
@@ -2247,7 +2247,7 @@ var MenuEntry = styled__default["default"].div(templateObject_3$1 || (templateOb
     return (secondary ? "0 32px" : "0 16px");
 }, function (_a) {
     var secondary = _a.secondary;
-    return (secondary ? "14px" : "16px");
+    return (secondary ? "25px" : "30px");
 }, function (_a) {
     var theme = _a.theme;
     return theme.colors.textSubtle;
@@ -2622,7 +2622,7 @@ var Menu = function (_a) {
             React__default["default"].createElement(Logo, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
             React__default["default"].createElement(Flex, null,
                 React__default["default"].createElement(SocialEntry, null, cakePriceUsd ? (React__default["default"].createElement(PriceLink, { href: priceLink, target: "_blank" },
-                    React__default["default"].createElement(Icon$F, { width: "45px", mr: "8px" }),
+                    React__default["default"].createElement(Icon$F, { width: "40px", mr: "8px" }),
                     React__default["default"].createElement(Text, { color: "textSubtle", bold: true }, "$".concat(cakePriceUsd.toFixed(3))))) : (React__default["default"].createElement(Skeleton, { width: 80, height: 24 }))),
                 React__default["default"].createElement(UserBlock, { account: account, login: login, logout: logout }),
                 profile && React__default["default"].createElement(Avatar, { profile: profile }))),
